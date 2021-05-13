@@ -1,2 +1,2 @@
-# Atividade 03 (presença) - Mega Sena
-  Para ganhar o prêmio máximo na Mega Sena, é necessário acertar todos os 6 números em seu bilhete com os 6 números entre 1 e 60 sorteados. Escreva um programa que gere uma seleção aleatória de 6 números para uma aposta. Certifique-se de que os 6 números selecionados não contenham duplicatas. Exibir os números em ordem crescente.
+# Atividade 04 (presença) - Triângulo
+  O triângulo pode ser classificado com base no comprimento de seus lados em equilátero, isósceles ou escaleno. Todos os três lados de um triângulo equilátero têm o mesmo comprimento. Um triângulo isósceles tem dois lados que são do mesmo comprimento e um terceiro lado que é diferente comprimento. Se todos os lados tiverem comprimentos diferentes, o triângulo é escaleno. Escreva um programa que leia os comprimentos dos três lados de um triângulo do usuário. Em seguida, exiba uma mensagem que declara o tipo do triângulo.
