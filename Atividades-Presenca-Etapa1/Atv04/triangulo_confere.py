@@ -8,12 +8,16 @@ Escreva um programa que leia os comprimentos dos três lados de um triângulo do
 print('Bem-vindo ao confere triângulo"\n')
 
 
-#Aqui pedimos para o usuário entrar com os valores do triangulo, digite 0 para sair!
+#Aqui pedimos para o usuário entrar com os valores do triangulo
+try:
+	a = float(input('Digite o Primeiro Lado do Triângulo: '))
+	b = float(input('Digite o Segundo Lado do Triângulo: '))
+	c = float(input('Digite o Terceiro Lado do Triângulo: '))
 
-a = float(input('Digite o Primeiro Lado do Triângulo: '))
-b = float(input('Digite o Segundo Lado do Triângulo: '))
-c = float(input('Digite o Terceiro Lado do Triângulo: '))
+except:
+	print ('\nDigite números válidos!')
 
+#Primeira checagem, ver seo triângulo tem valores válidos
 if a == 0 or b == 0 or c == 0:
 	print('\nEsse triângulo não existe')
 else:
